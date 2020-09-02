@@ -1,0 +1,105 @@
+
+body{
+    box-sizing: border-box;
+
+    
+}
+/* for all page style strart */
+ul li{
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+   
+}
+ ul li::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 10px;
+   
+}
+.caption_inf{
+    box-shadow: 2px 2px grey;
+}
+
+
+/* for  page style end */
+
+/* start navbar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav p{
+    font-weight: 900;
+    color:#d81e05;
+}
+/* end navbar style */
+ 
+/* start overly style */
+.overly{
+    background-image: url(/assets/ia_600000033.jpeg);
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.overly .overly_caption h1{
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+
+}
+.overly .overly_caption p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 30%;
+}
+/* end overly style */
+
+/* start why give blood style */
+
+ .why_give h2{
+    font-weight: 600;
+    font-size: 3rem;
+    color:#d81e05;
+ }
+/* start why give blood style */
+
+/* start Expect_Donationstyle */
+.Expect_Donation h2{
+    font-weight: 600;
+    font-size: 3rem;
+    color:#d81e05;
+}
+.Expect_Donation span{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:#d81e05;
+}
+
+.Expect_Donation .caption_style{
+    background-color: #f0f0f0;
+}
+/* end Expect_Donationstyle */
+
+ /*  start can_give_Donationstyle */
+.can_give h1{
+    font-weight: 600;
+    font-size: 3rem;
+    color:#d81e05;   
+}
+/* end can_give_Donationstyle */ 

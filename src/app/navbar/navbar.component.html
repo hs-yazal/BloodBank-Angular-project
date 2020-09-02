@@ -1,0 +1,51 @@
+
+<div class="fixed-top">
+
+<nav class="navbar navbar-expand-sm navbar-light bg-white">
+    <a class="navbar-brand " routerLink="home" ><img id="logo" class="img-fluid  " src="assets/blood.jpg" alt="logo-give-blood" ></a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        
+       <form class="form-inline ml-auto  my-lg-0">
+         <input class="form-control mr-sm-2" type="text" placeholder="Search Here">
+         <button class="btn btn-outline-danger my-sm-0" type="submit">Search</button>
+        </form>
+        <a id="logIn" routerLink="login" class="btn btn-outline-danger px-3  mx-2"> Log In</a>
+    </div>
+</nav> 
+
+<nav id="navbar2" class="navbar navbar-expand-sm  ">
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav m-auto  mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="home" routerLinkActive="active">Home </a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" routerLink="about" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" routerLink="contacts" routerLinkActive="active">Contacts</a>
+            </li>
+        
+            <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" >Donation Process</a>
+                <ul class="dropdown-menu">
+
+                    <li ><a class="dropdown-item"  routerLink="donation_process">donation_process overview</a></li>
+                    <li ><a class="dropdown-item"  routerLink="donation_process_des">what do you do before ,during ,after </a></li>
+                    <li ><a class="dropdown-item" routerLink="what-happen-donateblood">what happen to donated blood</a></li>
+                    <li ><a class="dropdown-item" routerLink="frist-time-donation">frist time donation</a></li>
+                    <li ><a class="dropdown-item" routerLink="select-time-todonation">select-time-todonation</a></li>
+                    
+                </ul>
+            </li>
+
+            
+        </ul>
+    
+    </div>
+</nav> 
+</div>

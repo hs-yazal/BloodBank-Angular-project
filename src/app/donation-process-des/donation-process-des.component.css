@@ -1,0 +1,48 @@
+ /* frist section sytle  background start  */
+.background_image
+{
+    position: relative;
+height: 100vh;
+width: 100%;
+background-image: url('/assets/ia_400000021.jpeg');
+background-size: 100% 100%;
+}
+#heading_background{
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #ffffff;
+}
+ /* frist section sytle  background end  */
+  /*  sytle heading and list style for this page start  */
+.heading{
+text-align: center;
+font-weight: 900;
+    font-size: 2rem;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+   
+}
+ ul li::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 10px;
+   
+}
+  /*  sytle heading and list style for this page start  */
+
+  /* over lay in page start */
+.day_donation{
+    background-color: rgba(0, 0, 0, .6);
+}
+/* over lay in page start */

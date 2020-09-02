@@ -1,0 +1,34 @@
+
+/* start navbar */
+
+
+#logo
+{
+width: 150px;
+
+}
+.nav-link
+{
+    color: #fff;
+    margin: 0px 30px;
+    font-size: 1.3rem;
+    transition: all .2s;
+
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 7px;
+}
+#navbar2{
+    background-color: #d81e05;
+}
+
+#logIn{
+   
+    /* color: #d81e05; */
+    border: 1px solid #d81e05;
+}
+
+/* end of navbar */

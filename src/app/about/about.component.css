@@ -1,0 +1,11 @@
+.jumbotron h1{
+    color: #d81e05;
+    text-align: center;
+    
+}
+
+.jumbotron p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}

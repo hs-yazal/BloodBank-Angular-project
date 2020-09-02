@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav p{
+    font-weight: 900;
+    color:#d81e05;
+}
+.display{
+    display: none;
+}

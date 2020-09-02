@@ -1,0 +1,34 @@
+.paragstyel{
+color:gray;
+font-size: 25px;
+
+}
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+   
+    color: rgb(51, 51, 51);
+}
+ ul li{
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+   
+}
+ ul li::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 10px;
+   
+}
+.overly-background{
+    background-color: rgba(0, 0, 0, .6)
+}
+.styleul{
+    background-color: white;
+}

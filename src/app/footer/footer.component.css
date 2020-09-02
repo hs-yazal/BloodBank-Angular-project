@@ -1,0 +1,12 @@
+ footer{
+    background: rgba(0, 0, 0, .4);
+    
+} 
+
+.list-unstyled a{
+    color: #fff;
+    transition: all .3s;
+}
+.list-unstyled a:hover{
+    color: #d81e05;
+}

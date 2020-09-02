@@ -1,0 +1,85 @@
+
+      <section>
+        <nav class="navbar navbar-light bg-light mt-2 " >
+            <p>you should answer this question and select your time to donation</p>
+            <div>contain font awsome</div>
+        </nav>
+        <section class="question">
+            <div class="container">
+                <div class="caption_qu">
+                    <h1 class="mb-3">1- Are you 17 – 65 years old?</h1>
+                   
+                        <div>
+                    <label>yes:</label>
+                    <input [(ngModel)]="answer" type="radio" name="q1" value="yes">
+                </div>
+                <div>
+                    <label>No:</label>
+                    <input [(ngModel)]="answer"  type="radio" name="q1" value="no">
+                </div>
+                
+                </div>
+
+                <div class="caption_qu">
+                    <h1 class="mb-3">2- Do you currently weigh less than 50kg (7 stone 12 pounds)?</h1>
+                   
+                        <div>
+                    <label>yes:</label>
+                    <input  [(ngModel)]="answer1" id="demo" type="radio" name="q2" value="yes">
+                </div>
+                <div>
+                    <label>No:</label>
+                    <input  [(ngModel)]="answer1" id="demo" type="radio" name="q2" value="no">
+                </div>
+                
+                </div>
+                <div class="caption_qu">
+                    <h1 class="mb-3">Did you donate blood during the past three months?</h1>
+                   
+                        <div>
+                    <label>yes:</label>
+                    <input [(ngModel)]="answer2" type="radio" name="q3" value="yes">
+                </div>
+                <div>
+                    <label>No:</label>
+                    <input [(ngModel)]="answer2" type="radio" name="q3" value="no">
+                </div>
+                
+                </div>
+                <div class="caption_qu">
+                    <h1 class="mb-3">
+                        Did you perform an operation for you soon?</h1>
+                   
+                        <div>
+                    <label>yes:</label>
+                    <input [(ngModel)]="answer3"type="radio" name="q4" value="yes">
+                </div>
+                <div>
+                    <label>No:</label>
+                    <input [(ngModel)]="answer3"type="radio" name="q4" value="no">
+                </div>
+                
+                </div>
+                <button  class="btn btn-primary float-right " (click)="continue()"click >continue</button>
+               <div [class.display]="display"  class="mt-5 display ">
+                  <div class="row">
+                      <div class="col-md-4">
+                          <img class="img-fluid" src="assets/ia_600000027.png">
+                  </div>
+                  <div class="col-md-8 mt-5">
+                    <img class="img-fluid mr-5" src="assets/ia_400000010.png">
+                    <input  type="text" placeholder="enter your code" >
+                          
+                      <button class="btn btn-danger ml-5 ">send to select time </button>
+                
+                </div>
+                    
+                    
+                   
+
+               </div>
+            </div>
+            </div>
+        </section>
+
+      </section>
